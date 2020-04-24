@@ -34,7 +34,7 @@ namespace ThermistorCalc.Lib
 		/// <param name="T3">Temperature in °C at point #3</param>
 		/// <param name="R3">Resistance of the thermistance in ohms at point#3</param>
 		/// <returns>An object with the equation and the coefficients calculated</returns>
-		public static SteinhartHartModelCalculator CreateFrom3Values(double T1, ulong R1, double T2, ulong R2, double T3, ulong R3)
+		public static SteinhartHartModelCalculator CreateFromValues(double T1, ulong R1, double T2, ulong R2, double T3, ulong R3)
 		{
 			var coeffs = CalculateCoefficients(T1, R1, T2, R2, T3, R3);
 

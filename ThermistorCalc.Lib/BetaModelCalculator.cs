@@ -27,7 +27,7 @@ namespace ThermistorCalc.Lib
 		/// <param name="T2">Temperature in °C at point #2</param>
 		/// <param name="R2">Resistance of the thermistance in ohms at point#2</param>
 		/// <returns>An object with the equation and the beta parameter calculated</returns>
-		public static BetaModelCalculator CreateFrom3Values(double T1, ulong R1, double T2, ulong R2)
+		public static BetaModelCalculator CreateFromValues(double T1, ulong R1, double T2, ulong R2)
 		{
 			var coeffs = CalculateCoefficients(T1, R1, T2, R2);
 
