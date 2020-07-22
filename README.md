@@ -1,6 +1,6 @@
 # ThermistorCalc.Lib
 This is a C#/.Net standard library designed to calculate thermistor resistance depending to the temperature.
-This library features both SteinhartHart and Beta models. See [dedicated wikipedia page](https://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation) for more information.
+This library features both Steinhart-Hart and Beta models. See [dedicated wikipedia page](https://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation) for more information.
 
 I came up with this solution only because excel could not handle that, due to the lack of floating point precision (it seems, I didn't investigate further as I was already upset :-)). 
 My initial goal was to generate an embeddable conversion tabel from resistance to temperature into an arduino program.
